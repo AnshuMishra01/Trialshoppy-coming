@@ -192,14 +192,6 @@ h4 {
   }
 }
 
-.flicker {
-  animation: shine 0.2s forwards, blink 0.5s 2s 4;
-}
-
-.flicker:hover {
-  animation-play-state: paused;
-}
-
 @keyframes shine {
   0% {
     color: #5f1e17;
